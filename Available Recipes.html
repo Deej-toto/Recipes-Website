@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        nav {
+            background-color: #e8a8b8;  
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #2c3e50;  
+            font-size: 16px;    
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        .recipe-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .recipe-item {
+            margin: 20px;
+            text-align: center;
+        }
+        .recipe-image {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .recipe-item a {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .recipe-item a:hover {
+            color: #a5b8e1;
+        }
+        footer {
+            background-color: #a5b8e1;
+            color: #111; 
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: blue; 
+            text-decoration: none; 
+        }
+    </style>
+</head>
+<body>
+    <strong>
+        <i>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+        </i>
+    </strong>
+
+    <h1>Explore Our Recipes</h1>
+    
+    <div class="recipe-list">
+        <div class="recipe-item">
+            <img src="https://images.squarespace-cdn.com/content/v1/5a419c0118b27d418cc2e96f/2e31c7ec-7fc8-49bc-ac51-266cf78f1a65/IMG_0369.jpg?format=2500w" 
+            alt="Pilau" class="recipe-image">
+            <a href="pilau.html">Pilau</a>
+        </div>
+        <div class="recipe-item">
+            <img src="https://blackwells-butchers.com/wp-content/uploads/2020/08/homemade-chicken-curry.jpg"
+            alt="Chicken Curry" class="recipe-image">
+            <a href="chicken_curry.html">Chicken Curry</a>
+        </div>
+        <div class="recipe-item">
+            <img src="https://www.wearesovegan.com/wp-content/uploads/2021/01/veganultimatechillirecipeh1.jpg" 
+            alt="Vegetarian Chili" class="recipe-image">
+            <a href="vegetarian_chilli.html">Vegetarian Chili</a>
+        </div>
+        <div class="recipe-item">
+            <img src="https://larecette.net/wp-content/uploads/2020/08/iStock-1131504941.jpg.webp" 
+            alt="Fish and Chips" class="recipe-image">
+            <a href="fish_and_chips.html">Fish and Chips</a>
+        </div>
+        <div class="recipe-item">
+            <img src="https://www.jocooks.com/wp-content/uploads/2020/04/lentil-soup-1-17.jpg"
+            alt="Lentil Soup" class="recipe-image">
+            <a href="lentil_soup.html">Lentil Soup</a> 
+        </div>
+    </div>
+
+    <footer>
+        <p>More recipes to come.</p>
+        <p>Reach out to me at: <a href="mailto:deejgiea@gmail.com">deejgiea@gmail.com</a></p>
+    </footer>
+</body>
+</html>
